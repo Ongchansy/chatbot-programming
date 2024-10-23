@@ -1,0 +1,38 @@
+# Ignore Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+
+# Ignore Flask specific files
+instance/
+.env
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
+*.env
+
+# Ignore Jupyter notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore compiled code and cache
+*.pyc
+*.pyo
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules (if you have a frontend part)
+node_modules/
+
+# Ignore coverage reports
+coverage/
+*.coverage
+
+# Ignore static and build files (if you use Flask static files or similar)
+static/
+dist/
+build/

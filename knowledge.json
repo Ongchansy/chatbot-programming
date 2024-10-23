@@ -1,0 +1,146 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good evening"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! Need help with programming?",
+          "Hey! What programming question do you have?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "See you later",
+          "Bye",
+          "Take care"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later! Feel free to come back with any programming questions.",
+          "Bye! Happy coding!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "I appreciate it",
+          "That's helpful"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Glad I could help!",
+          "No problem! Let me know if you have more questions."
+        ]
+      },
+      {
+        "tag": "python_variable",
+        "patterns": [
+          "What is a variable in Python?",
+          "How do you declare a variable in Python?",
+          "Explain variables in Python"
+        ],
+        "responses": [
+          "A variable in Python is a container for storing data values. You can declare a variable by simply assigning a value to a name, like this: `x = 5` or `name = 'Alice'`.",
+          "In Python, variables are created the moment you assign a value to them. For example, `x = 10` creates a variable `x` with the value of 10."
+        ]
+      },
+      {
+        "tag": "python_loop",
+        "patterns": [
+          "How do you write a loop in Python?",
+          "Explain loops in Python",
+          "What are the types of loops in Python?",
+          "Tell me about for loops in Python"
+        ],
+        "responses": [
+          "In Python, there are two main types of loops: `for` loops and `while` loops. A `for` loop iterates over a sequence (like a list or a string), while a `while` loop repeats as long as a condition is true.",
+          "For example, a `for` loop in Python looks like this: `for i in range(5): print(i)` which prints numbers from 0 to 4.",
+          "A `while` loop example in Python: `while x < 10: print(x); x += 1`."
+        ]
+      },
+      {
+        "tag": "python_function",
+        "patterns": [
+          "How do you define a function in Python?",
+          "Explain functions in Python",
+          "What is a function in Python?"
+        ],
+        "responses": [
+          "In Python, a function is defined using the `def` keyword. For example: `def my_function(): print('Hello from a function')`.",
+          "Functions in Python are blocks of reusable code that can perform a specific task. You can pass data to a function, and it can return data as a result."
+        ]
+      },
+      {
+        "tag": "java_variable",
+        "patterns": [
+          "What is a variable in Java?",
+          "How do you declare a variable in Java?",
+          "Explain variables in Java"
+        ],
+        "responses": [
+          "In Java, a variable is used to store a value of a specific data type. You declare a variable by specifying its type followed by the variable name, like this: `int number = 10;`.",
+          "Variables in Java must be declared with a data type (e.g., `int`, `String`) before they can be used. For example, `String name = 'John';`."
+        ]
+      },
+      {
+        "tag": "java_loop",
+        "patterns": [
+          "How do you write a loop in Java?",
+          "Explain loops in Java",
+          "Tell me about loops in Java"
+        ],
+        "responses": [
+          "In Java, you can use `for`, `while`, and `do-while` loops to repeat a block of code. For example, a `for` loop: `for (int i = 0; i < 5; i++) { System.out.println(i); }`.",
+          "Java has three types of loops: `for`, `while`, and `do-while`. The `for` loop is commonly used when the number of iterations is known, and the `while` loop repeats until a condition becomes false."
+        ]
+      },
+      {
+        "tag": "html_intro",
+        "patterns": [
+          "What is HTML?",
+          "Explain HTML",
+          "Tell me about HTML"
+        ],
+        "responses": [
+          "HTML stands for HyperText Markup Language. It is the standard language for creating web pages and web applications. HTML describes the structure of a web page using markup tags.",
+          "HTML is used to define the content of web pages, like headings, paragraphs, links, images, and more."
+        ]
+      },
+      {
+        "tag": "css_intro",
+        "patterns": [
+          "What is CSS?",
+          "Explain CSS",
+          "Tell me about CSS"
+        ],
+        "responses": [
+          "CSS stands for Cascading Style Sheets. It is used to style and layout web pages, including the design, color, and fonts.",
+          "CSS allows you to apply styles to HTML elements, including font styles, colors, layout designs, and much more."
+        ]
+      },
+      {
+        "tag": "javascript_intro",
+        "patterns": [
+          "What is JavaScript?",
+          "Explain JavaScript",
+          "Tell me about JavaScript"
+        ],
+        "responses": [
+          "JavaScript is a programming language used to make web pages interactive. It can be used to update content, control multimedia, and animate images.",
+          "JavaScript is often used for web development to add interactive elements to websites, such as forms, animations, and dynamic content."
+        ]
+      }
+    ]
+  }
+  
